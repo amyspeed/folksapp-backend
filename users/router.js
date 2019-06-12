@@ -93,10 +93,10 @@ router.post('/', jsonParser, (req, res) => {
     lastName = lastName.trim();
 
     //Verify that username is unique
-    return User.find({ username })
+     return User.find({ username })
         .count()
         .then(count => {
-            if(count > 0) {
+            if (count > 0) {
                 return Promise.reject({
                     code: 422,
                     reason: 'ValidationError',
@@ -112,7 +112,7 @@ router.post('/', jsonParser, (req, res) => {
                 username,
                 password: hash,
                 firstName,
-                lastname
+                lastName
             });
         })
         .then(user => {
