@@ -1,0 +1,11 @@
+language: node_js
+node_js: node
+services:
+- mongodb
+deploy:
+  provider: heroku
+  api_key:
+    secure: ek2nbQBK3xp4N75KcX8eyR6oNundUW4oLjSOTQHOOXmFfEP3xtxMhJwE2y0GTium2jcLx8QhCAcve51oohI1M9RdDcjtdmSO22HxDkI/SAZBT2l7tuPARqo6Yp2VGtPlrRhJ1BzMldUlMglXx25SGACtFtnQygCzBZO+ZxxEnRf57Csz04qt6hF7CCHorcZWZoTiNYck+9VXNPEEUnPDVYt2lEElXQbR8sH2qkjJc4Oph9L6em5Z1EgGltONJhtaY5S2xCEOjZXSfWdZWTo2goiRr+IU8+EvP0x+RE1b5lMZkB0/x8xOBM+ijCz+W4w+nEc4hKJY9YmZsdbLVYMsvtcIIJIHQ6KwDl6NvNeqjoXlJLyikd9aOZL0AEI7qlBfnWnIAfBzUWQv1uMvjPD9wW9LCy37GOuCHQJ65gOq1Xc2zzZI+DAbVz8xPoOwLB+WkhjxdYyT6C7GSNWmhGCkxbp6UMyMKil24w8WobtK82hzPb9EYh6A1tmE2NR76qW++XmSW+bUyQiIonBEcHBfthMaT/QoTB4xQBaHgYWij6p2qEJMEKrelkVQ7jETi6AT9E09tkH32I7BUsWyO59l1UdsNlOOY+Xu6qlFmclO0PWaHYCV6FcftRTqbJ5b8XhOoMYKCXJ5tigjFk5JqAUCwqVcD9DA0QStWCE8q+dwloQ=
+  app: protected-waters-67325
+  on:
+    repo: amyspeed/folksapp-backend
