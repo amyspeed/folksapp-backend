@@ -7,8 +7,16 @@
     "test": "mocha",
     "start": "node server.js"
   },
-  "author": "",
+  "author": "Amy Speed",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amyspeed/folksapp-backend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/amyspeed/folksapp-backend/issues"
+  },
+  "homepage": "https://github.com/amyspeed/folksapp-backend#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.19.0",
