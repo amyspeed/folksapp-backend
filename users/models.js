@@ -18,7 +18,7 @@ const UserSchema = mongoose.Schema({
     firstName: { type: String, default: '' },
     lastName: { type: String, default: '' },
     description: { type: String, default: '' },
-    image: { type: String, default: '' }
+    image: { type: String, default: 'smiley.png' }
 });
 
 UserSchema.methods.serialize = function() {
